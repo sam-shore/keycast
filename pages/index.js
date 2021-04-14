@@ -34,11 +34,11 @@ export default function Home() {
                   ⌘K
           </h1>
               </div>
-              <h1 className={"sm:text-6xl text-4xl font-semibold sm:max-w-md sm:w-auto w-64 text-gray-900"}>
-                Help your users get more done.
+              <h1 className={"sm:text-6xl text-4xl font-extrabold sm:max-w-lg sm:w-auto w-64 text-gray-900"}>
+                An embeddable command center for your app.
           </h1>
               <p className={"text-gray-700 sm:text-2xl text-lg max-w-md antialiased"}>
-                Keycast lets users control your app with just a few keystrokes.
+              Hit ⌘K, start typing, and find the command you need in seconds, no more confusion.
         </p>
               <div className={"flex flex-col space-y-4"}>
                 <form action="https://formspree.io/f/xzbyblor" className={"space-x-2 w-full"} method="post" name="waitlist">
@@ -49,7 +49,7 @@ export default function Home() {
               </div>
             </div>
 
-            <img className={" max-w-full mx-auto xl:pr-24 my-auto"} src="/mock.svg"></img>
+            <img className={" max-w-full mx-auto xl:pr-24 my-auto"} src="/keycast-mock.svg"></img>
           </div>
         </div>
       </div>
